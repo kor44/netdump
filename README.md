@@ -1,7 +1,7 @@
 # netdump
 Simple tcpdump analog with build-in cron function.
 
-Why to create: tcpdump has option -G to ratate file every N seconds. But I need file save for example exectly every 15 minutes, that is 00:15:00, 00:30:00, 00:45:00, 01:00:00.
+Why to create: tcpdump has option -G to ratate file every N seconds. But I need to save file at specified intervals (like cron), for example every 15 minutes: 00:15:00, 00:30:00, 00:45:00, 01:00:00.
 
 Required params:
 - -i - name of interface. Can use to -D option to list available interfaces
